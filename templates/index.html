@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/209/clown-face_1f921.png"
+    />
+    <title>Whiteboard</title>
+  </head>
+
+  <body>
+    <h1>Real time whiteboard capturing</h1>
+    <canvas
+      id="drawCanvas"
+      width="640"
+      height="360"
+      style="border: 1px solid #000000"
+    ></canvas>
+
+    <script type="text/javascript">
+      // Get canvas element
+      var canvas = document.getElementById("drawCanvas");
+      var ctx = canvas.getContext("2d");
+      var canvasWidth = canvas.width;
+      var canvasHeight = canvas.height;
+      var canvasData = ctx.getImageData(0, 0, canvasWidth, canvasHeight);
+      ctx.lineWidth = "3";
+
+      canvas.addEventListener("mousedown", startDraw, false);
+      canvas.addEventListener("mousemove", draw, false);
+      canvas.addEventListener("mouseup", endDraw, false);
+
+      // create a flag
+      var isActive = false;
+
+      // array to collect coordinates
+      var plots = [];
+
+      // function draw2(e) {
+      //   for (let i = 0; i < 100; i++) {
+      //     ctx.fillRect(i, i, 1, 1); // fill in the pixel at (10,10)
+      //   }
+      // }
+
+      function draw(e) {
+        if (!isActive) return;
+
+        // cross-browser canvas coordinates
+        var x = e.offsetX || e.layerX - canvas.offsetLeft;
+        var y = e.offsetY || e.layerY - canvas.offsetTop;
+
+        plots.push({ x: x, y: y });
+        // console.log("hej!");
+
+        drawOnCanvas(plots);
+      }
+
+      function drawOnCanvas(plots) {
+        // console.log("Drawing!");
+        ctx.beginPath();
+        ctx.moveTo(plots[0].x, plots[0].y);
+
+        for (var i = 1; i < plots.length; i++) {
+          ctx.lineTo(plots[i].x, plots[i].y);
+        }
+        ctx.stroke();
+      }
+
+      function startDraw(e) {
+        // ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+        // console.log("Start draw!");
+        isActive = true;
+      }
+
+      function endDraw(e) {
+        // console.log("End draw!");
+
+        isActive = false;
+
+        // empty the array
+        plots = [];
+      }
+
+      function drawPixel(x, y, r = 0, g = 0, b = 0, a = 255) {
+        var index = (x + y * canvasWidth) * 4;
+
+        // console.log("Drawing pixels: " + x + " " + y);
+
+        canvasData.data[index + 0] = r;
+        canvasData.data[index + 1] = g;
+        canvasData.data[index + 2] = b;
+        canvasData.data[index + 3] = a;
+      }
+
+      // Update canvas with changes.
+      function updateCanvas() {
+        console.log("Update Canvas");
+        ctx.putImageData(canvasData, 0, 0);
+      }
+
+      // Naive solution
+      async function fetchWhiteboardPixels() {
+        let success = false;
+        let json = null;
+        while (!success)
+          try {
+            const response = await fetch("http://localhost:5000/inkPixels");
+            json = await response.json();
+            success = true;
+          } catch (err) {
+            console.log(err);
+          }
+
+        return json;
+      }
+
+      async function startWhiteboardUpdate() {
+        let i = 0;
+        let currentPixels;
+
+        while (true) {
+          console.log("fetch ink");
+          pixels = await fetchWhiteboardPixels();
+          console.log("fetch done");
+          ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+          canvasData = ctx.getImageData(0, 0, canvasWidth, canvasHeight);
+
+            drawPixel(pixels.x[i], pixels.y[i]);
+          }
+          updateCanvas();
+      }
+
+      startWhiteboardUpdate();
+
+      // // WebRTC
+
+      // function handleReceiveMessage(event) {
+      //   var point = document.createTextNode(event.data);
+      // }
+
+      // remoteConnection = new RTCPeerConnection();
+      // remoteConnection.ondatachannel = receiveChannelCallback;
+
+      // remoteConnection.onicecandidate = e => !e.candidate
+      //   || localConnection.addIceCandidate(e.candidate)
+      //   .catch(handleAddCandidateError);
+    </script>
+  </body>
+</html>
