@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a4b6433-0a01-4d6b-b18f-ff57bffe67da" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Setup Script" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="3bb710f1-b6dd-4e3c-8e7a-8e4966ba3721" />
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+      <option value="200" />
+    </hideBySeverity>
+  </component>
+  <component name="ProjectId" id="1ocgUbjaI9lfNI1hbqwW9H3ZJjq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Computer\Desktop\Programming\Whiteboard\Website\Server\WhiteboardCapturing" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Computer\Desktop\Programming\Whiteboard\Website\Server\WhiteboardCapturing" />
+      <recent name="C:\Users\Computer\Desktop\Programming\Whiteboard\Website\Server\WhiteboardCapturing\templates" />
+      <recent name="C:\Users\Computer\Desktop\Programming\Whiteboard\Website\Server\WhiteboardCapturing\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.whiteboard">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="capture_machine" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Computer\anaconda3\envs\whiteboard\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capture_machine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="whiteboard" type="Python.FlaskServer">
+      <module name="whiteboard" />
+      <option name="target" value="C:\Users\Computer\Desktop\Programming\Whiteboard\Website\Server\WhiteboardCapturing\app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="WhiteboardCapturing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.whiteboard" />
+      <item itemvalue="Python.capture_machine" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a4b6433-0a01-4d6b-b18f-ff57bffe67da" name="Default Changelist" comment="" />
+      <created>1613591310206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613591310206</updated>
+      <workItem from="1613591336790" duration="10416000" />
+      <workItem from="1613602438320" duration="88000" />
+      <workItem from="1613602644551" duration="56000" />
+      <workItem from="1613602976546" duration="6004000" />
+      <workItem from="1613912110454" duration="24565000" />
+      <workItem from="1613937586000" duration="2050000" />
+      <workItem from="1614242489624" duration="7073000" />
+      <workItem from="1614252127860" duration="545000" />
+      <workItem from="1614263757464" duration="8326000" />
+      <workItem from="1614514194360" duration="67000" />
+      <workItem from="1616438046652" duration="558000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="359" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613595574527">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="734" y="359" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1613595574527" />
+    <state x="1060" y="471" key="FileChooserDialogImpl" timestamp="1616438364301">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="795" y="351" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1614274267135" />
+    <state x="1060" y="471" key="FileChooserDialogImpl/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1616438364301" />
+    <state width="2517" height="279" key="GridCell.Tab.0.bottom" timestamp="1616438607869">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1614282287147" />
+    <state width="2517" height="279" key="GridCell.Tab.0.bottom/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1616438607869" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/2560.256.1920.1050/0.0.2560.1410@2560.256.1920.1050" timestamp="1613933448633" />
+    <state width="2517" height="279" key="GridCell.Tab.0.center" timestamp="1616438607869">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1614282287147" />
+    <state width="2517" height="279" key="GridCell.Tab.0.center/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1616438607869" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center/2560.256.1920.1050/0.0.2560.1410@2560.256.1920.1050" timestamp="1613933448631" />
+    <state width="2517" height="279" key="GridCell.Tab.0.left" timestamp="1616438607869">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1614282287147" />
+    <state width="2517" height="279" key="GridCell.Tab.0.left/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1616438607869" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left/2560.256.1920.1050/0.0.2560.1410@2560.256.1920.1050" timestamp="1613933448630" />
+    <state width="2517" height="279" key="GridCell.Tab.0.right" timestamp="1616438607869">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1614282287147" />
+    <state width="2517" height="279" key="GridCell.Tab.0.right/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1616438607869" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right/2560.256.1920.1050/0.0.2560.1410@2560.256.1920.1050" timestamp="1613933448632" />
+    <state width="2517" height="182" key="GridCell.Tab.1.bottom" timestamp="1613936888004">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="182" key="GridCell.Tab.1.bottom/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1613936888004" />
+    <state width="2517" height="182" key="GridCell.Tab.1.center" timestamp="1613936888004">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="182" key="GridCell.Tab.1.center/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1613936888004" />
+    <state width="2517" height="182" key="GridCell.Tab.1.left" timestamp="1613936888004">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="182" key="GridCell.Tab.1.left/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1613936888004" />
+    <state width="2517" height="182" key="GridCell.Tab.1.right" timestamp="1613936888004">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="182" key="GridCell.Tab.1.right/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1613936888004" />
+    <state x="615" y="227" key="SettingsEditor" timestamp="1616438402262">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1614274273930" />
+    <state x="615" y="227" key="SettingsEditor/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1616438402262" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1613919242956">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1613919242956" />
+    <state x="831" y="351" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1613595731608">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="831" y="351" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1613595731608" />
+    <state x="741" y="314" width="555" height="566" key="find.popup" timestamp="1614274220365">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="741" y="314" width="555" height="566" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1614274220365" />
+    <state x="988" y="422" width="647" height="566" key="find.popup/2560.256.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1613927289024" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/whiteboard$capture_machine.coverage" NAME="capture_machine Coverage Results" MODIFIED="1613917347014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WhiteboardCapturing$whiteboard.coverage" NAME="whiteboard Coverage Results" MODIFIED="1616438152606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/whiteboard$whiteboard.coverage" NAME="whiteboard Coverage Results" MODIFIED="1613934941214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
