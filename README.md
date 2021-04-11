@@ -1,4 +1,6 @@
-# Real Time Whiteboard Capturing Machine
+![python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)
+
+# Real Time Whiteboard Capturing
 
 Hello, friends! This is a naive implementation of a real time whiteboard capturing machine :o) 
 
